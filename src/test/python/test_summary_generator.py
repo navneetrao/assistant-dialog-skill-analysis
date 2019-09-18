@@ -3,8 +3,8 @@ import unittest
 import json
 import pandas as pd
 sys.path.append('src/main/python')
-from data_analysis import summary_generator
-from utils import skills_util
+import summary_generator
+import skills_util
 
 
 class TestSummaryGenerator(unittest.TestCase):

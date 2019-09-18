@@ -5,8 +5,8 @@ import json
 import numpy as np
 import pandas as pd
 sys.path.append('src/main/python')
-from  utils import skills_util
-from experimentation import data_manipulator
+import skills_util
+import data_manipulator
 
 
 class TestDataManipulator(unittest.TestCase):

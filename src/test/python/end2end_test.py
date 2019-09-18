@@ -2,7 +2,7 @@ import unittest
 import sys
 
 sys.path.append('src/main/python')
-from utils import skills_util
+import skills_util
 
 class TestNotebook(unittest.TestCase):
     def setUp(self):

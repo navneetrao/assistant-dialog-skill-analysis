@@ -2,8 +2,8 @@ import time
 import threading
 import _thread
 
-from utils import skills_util
-from inferencing import inferencer
+import skills_util
+import inferencer
 
 class InferenceThread(threading.Thread):
     """

@@ -4,8 +4,8 @@ import json
 import pandas as pd
 import numpy as np
 sys.path.append('src/main/python')
-from utils import skills_util
-from data_analysis import divergence_analyzer
+import skills_util
+import divergence_analyzer
 
 
 class TestDivergenceAnalyzer(unittest.TestCase):

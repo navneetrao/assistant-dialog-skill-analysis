@@ -5,7 +5,7 @@ from IPython.display import display, Markdown
 import matplotlib.pyplot as plt
 import seaborn as sns
 import nltk
-from utils import skills_util
+import skills_util
 
 def _preprocess_for_heat_map(workspace_df, label_for_display=30,
                              max_token_display=30, class_list=None):

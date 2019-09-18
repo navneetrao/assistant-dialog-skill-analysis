@@ -4,8 +4,8 @@ import json
 import pandas as pd
 import numpy as np
 sys.path.append('src/main/python')
-from data_analysis import similarity_analyzer
-from utils import skills_util
+import similarity_analyzer
+import skills_util
 
 TOLERANCE = .0000001
 

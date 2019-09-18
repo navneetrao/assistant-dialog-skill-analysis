@@ -3,11 +3,11 @@ import math
 import sys
 import pandas as pd
 sys.path.append('src/main/python')
-from confidence_analysis.confidence_analyzer import _get_far_list, _get_ontopic_accuracy_list, \
+from confidence_analyzer import _get_far_list, _get_ontopic_accuracy_list, \
     _find_threshold, abnormal_conf,generate_unique_thresholds, _get_bot_coverage_list, analysis, \
     extract_table_analysis, _convert_data_format, analysis_pipeline, extract_by_topic, \
     create_display_table
-from utils.skills_util import OFFTOPIC_LABEL
+from skills_util import OFFTOPIC_LABEL
 
 
 class TestThresholdAnalysis(unittest.TestCase):

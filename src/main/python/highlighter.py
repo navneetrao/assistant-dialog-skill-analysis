@@ -8,8 +8,8 @@ import nltk
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-from utils import skills_util
-from inferencing import inferencer
+import skills_util
+import inferencer
 
 MAX_TOKEN_LENGTH = 15
 NGRAM_RANGE = [1]

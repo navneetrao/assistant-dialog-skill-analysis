@@ -4,8 +4,8 @@ import json
 import pandas as pd
 
 sys.path.append('src/main/python')
-from  utils import skills_util
-from term_analysis import chi2_analyzer
+import skills_util
+import chi2_analyzer
 
 class TestChi2Analyzer(unittest.TestCase):
     """Test for Chi2 Analyzer module"""

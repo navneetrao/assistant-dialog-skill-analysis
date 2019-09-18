@@ -4,7 +4,7 @@ import pandas as pd
 import seaborn as sns
 from IPython.display import Markdown, display
 from matplotlib import pyplot as plt
-from utils.skills_util import LABEL_FONT
+from skills_util import LABEL_FONT
 
 
 def generate_summary_statistics(data, entities_list=None):

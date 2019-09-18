@@ -3,7 +3,7 @@ import unittest
 import json
 import pandas as pd
 sys.path.append('src/main/python')
-from utils import skills_util
+import skills_util
 
 class TestSkillsUtil(unittest.TestCase):
     """Test for skills utils module"""

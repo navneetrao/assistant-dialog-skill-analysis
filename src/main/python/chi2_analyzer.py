@@ -6,7 +6,7 @@ from IPython.display import display, Markdown, HTML
 from sklearn.feature_selection import chi2
 from sklearn.feature_extraction.text import CountVectorizer
 from nltk import word_tokenize
-from utils import skills_util
+import skills_util
 
 
 def strip_punctuations(utterance: str):

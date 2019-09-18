@@ -3,7 +3,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from IPython.display import display, Markdown
-from utils.skills_util import OFFTOPIC_LABEL
+from skills_util import OFFTOPIC_LABEL
 
 OFFTOPIC_CNT_THRESHOLD_FOR_DISPLAY = 5
 

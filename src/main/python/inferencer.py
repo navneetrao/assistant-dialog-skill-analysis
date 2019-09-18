@@ -2,8 +2,8 @@ import time
 import queue
 import pandas as pd
 import numpy as np
-from utils import skills_util
-from inferencing.multi_thread_inference import InferenceThread
+import skills_util
+from multi_thread_inference import InferenceThread
 
 def inference(conversation, workspace_id, test_data, max_retries=10, max_thread=5, verbose=False):
     """

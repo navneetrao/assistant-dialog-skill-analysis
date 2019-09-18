@@ -5,8 +5,8 @@ import numpy as np
 import pandas as pd
 
 sys.path.append('src/main/python')
-from  utils import skills_util
-from term_analysis import keyword_analyzer
+import skills_util
+import keyword_analyzer
 
 class TestKeywordAnalyzer(unittest.TestCase):
     '''

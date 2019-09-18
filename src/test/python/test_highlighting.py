@@ -7,9 +7,9 @@ import numpy as np
 import pandas as pd
 
 sys.path.append('src/main/python')
-from highlighting import highlighter
-from inferencing import inferencer
-from utils import skills_util
+import highlighter
+import inferencer
+import skills_util
 
 CONFIG_FILE = './wa_config.txt'
 THREAD_NUM = 5
