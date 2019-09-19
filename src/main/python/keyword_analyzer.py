@@ -41,7 +41,7 @@ def _get_counts_per_label(training_data, unigrams_col_name="unigrams"):
     '''
     training_data[unigrams_col_name] = training_data['utterance'].apply(nltk.word_tokenize)
     rows = list()
-    stopword_list = skills_util.load_stopword_list('src/main/resources/stopwords.txt')
+    stopword_list = skills_util.load_stopword_list('stopwords.txt')
     for row in training_data[['intent', unigrams_col_name]].iterrows():
         r = row[1]
         for word in r.unigrams:
