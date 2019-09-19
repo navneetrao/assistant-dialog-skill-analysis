@@ -29,7 +29,7 @@ def _preprocess_chi2(workspace_pd):
     :return count_vectorizer: vectorizer instance
     :return features: features from transform
     """
-    stopword_list = skills_util.load_stopword_list('src/main/resources/stopwords.txt')
+    stopword_list = skills_util.load_stopword_list('stopwords.txt')
 
     workspace_pd['utterance_punc_stripped'] = \
         workspace_pd['utterance'].apply(strip_punctuations)
